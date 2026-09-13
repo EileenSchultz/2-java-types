@@ -5,7 +5,7 @@ public class Task04Main {
     public static float calculate(int a, int b, String operation) {
 
         // TODO напишите здесь свою корректную реализацию этого метода, вместо сеществующей
-        switch (operation){
+        switch (operation) {
             case "+":
                 return (float) a + b;
             case "-":

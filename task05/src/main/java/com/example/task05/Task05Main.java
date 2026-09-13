@@ -4,15 +4,14 @@ public class Task05Main {
 
     public static String solution(int x) {
 
-        if (x == 0){
+        if (x == 0) {
             return "TRUE";
         }
 
-        while (x > 0)
-        {
+        while (x > 0) {
             int lastPartOfNumber = x % 10;
 
-            if (lastPartOfNumber % 2 != 0){
+            if (lastPartOfNumber % 2 != 0) {
                 return "FALSE";
             }
             x /= 10;
